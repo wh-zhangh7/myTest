@@ -3,46 +3,12 @@ import java.util.*;
 
 public class Test {
 
-//    public static void main(String[] args) {
-//        String t = "44201530300052503434";
-//        Long s = Long.parseLong(t);
-//        System.out.print(s);
-////        List<String> accNumList = new ArrayList<>();
-////        accNumList.add("111");
-////        accNumList.add("222");
-////        accNumList.add("333");
-////        accNumList.add("444");
-////        accNumList.add("555");
-////        accNumList.add("666");
-////        accNumList.add("777");
-////
-////        List<MapBean> mapBeanList = new ArrayList<MapBean>();
-////        Map<Long,CustomerEntity> tempMap = new HashMap<>();
-////
-////        int size = accNumList.size();
-////        int limit = 2;
-////        if(limit>size){
-////            System.out.println("hhhhh");
-////        }else{
-////            int len = size/limit;
-////            for(int i=0;i<len;i++){
-////                List<String> subList = accNumList.subList(i*limit,i*limit+limit);
-////                for(String s : subList){
-////                    System.out.print(s + ",");
-////                }
-////                System.out.println();
-////            }
-////            int lastIndex = len*limit;
-////            if(lastIndex<size){
-////                List<String> subList = accNumList.subList(lastIndex,lastIndex+(size-lastIndex));
-////                for(String s : subList){
-////                    System.out.print(s + ",");
-////                }
-////                System.out.println();
-////            }
-////        }
-//
-//    }
+    public static void main(String[] args) {
+        String t = "44201530300052503434";
+        Long s = Long.parseLong(t);
+        System.out.print(s);
+
+    }
 
     public static boolean containsUserDefinedUnicode(String string) {
         if (string == null) {
